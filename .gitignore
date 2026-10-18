@@ -1,0 +1,10 @@
+# Raw data is large (~9M rows) - do not commit it
+data/*.csv
+beverage_sales.csv
+# Keep data/processed/ (small summary tables the app needs)
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
+.Rhistory
